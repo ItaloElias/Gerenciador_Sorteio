@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sorteio da Rifa</title>
+</head>
+<body>
+    <h1>Sorteio da Rifa</h1>
+    <form method="post">
+        <button type="submit">Sortear</button>
+    </form>
+    {% if resultado %}
+        <h2>{{ resultado }}</h2>
+    {% endif %}
+</body>
+</html>
